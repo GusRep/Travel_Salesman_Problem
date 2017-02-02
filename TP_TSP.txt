@@ -1,0 +1,47 @@
+TP_TSP.txt
+
+Realizar un programa que dé una solución al problema del viajante de 
+comercio (TSP)
+
+Como parámetro en línea de comando se le pasará el archivo a procesar.
+Archivo de entrada “TSP_IN_xx.txt”, donde xx es un número de dos dígitos 
+(01;02;..).
+Archivo de salida (resultado) “TSP_OUT_xx_JCG.txt”, donde JCG son las 
+iniciales del autor (siempre tres letras).
+
+
+La información que contendrá el archivo de entrada es la siguiente:
+
+TSP_IN_xx.txt: (ver TSP_IN_01.txt)
+
+N;<CR>
+C12;C13;….C1N;C23;C24;…C2N;……C(N-1)N;<CR>
+EOF
+
+
+La información que contendrá el archivo de salida es la siguiente:
+
+TSP_OUT_xx_JCG.txt:
+
+strCamino;<CR>
+CT;<CR>
+NA;<CR>
+strTiempoEj;<CR>
+EOF
+
+
+
+Donde:
+
+N es el número entero de ciudades.
+C12 es el costo para ir de la ciudad 1 a la 2. (enteros)
+C23 idem pero de la 2 a la 3………
+
+
+
+strCamino es un string con el camino encontrado, de la forma "123451"
+CT es el costo total del camino encontrado.
+NA es la cantidad de nodos abiertos durante el proceso.
+strTiempoEj es un string con el tiempo de ejecución.
+
+
